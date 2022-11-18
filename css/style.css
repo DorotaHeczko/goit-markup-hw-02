@@ -1,133 +1,168 @@
 :root {
-  --nav-item-color: #212121;
-  --contact-item-header-color: #757575;
-  --main-color: #2196f3;
+    --nav-item-color: #212121;
+    --contact-item-header-color: #757575;
+    --main-color: #2196f3;
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
-  background-color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffffff;
 }
 .navigation {
-  width: 1600px;
-  color: #212121;
-  font-size: 14px;
-  line-height: 16px;
+    width: 1600px;
+    color: #212121;
+    font-size: 14px;
+    line-height: 1.14;
 }
 
 .nav-list {
-  text-decoration: none;
-  color: #212121;
-  font-size: 14px;
-  line-height: 16px;
-  list-style: none;
+    text-decoration: none;
+    color: #212121;
+    font-size: 14px;
+    line-height: 1.14;
+    list-style: none;
 }
 
 .nav-list a {
-  color: var(--nav-item-color);
-  text-decoration: none;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
+    color: var(--nav-item-color);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 .header-contacts {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 .header-contacts a {
-  text-decoration: none;
-  color: var(--contact-item-header-color);
+    text-decoration: none;
+    color: var(--contact-item-header-color);
 }
 
 .nav-list a:hover,
 .nav-list a:focus,
 .header-contacts a:hover,
 .header-contacts a:focus {
-  color: var(--main-color);
+    color: var(--main-color);
 }
 
 .dark-bg {
-  background: #2f303a;
+    background: #2f303a;
 }
 .header-primary {
-  color: #ffffff;
-  font-size: 44px;
-  line-height: 60px;
+    color: #ffffff;
+    font-size: 44px;
+    line-height: 1.36;
 }
 
 .articles h2 {
-  color: #212121;
-  font-size: 14px;
-  line-height: 16px;
+    text-decoration: none;
+    color: #212121;
+    font-size: 14px;
+    line-height: 1.14;
 }
 .articles p {
-  color: #757575;
-  font-size: 14px;
-  line-height: 24px;
+    text-decoration: none;
+    color: #757575;
+    font-size: 14px;
+    line-height: 1.71;
 }
 
 .job-description {
-  color: #212121;
-  font-size: 36px;
-  line-height: 42px;
+    color: #212121;
+    font-size: 36px;
+    line-height: 1.16;
 }
 
 .logo {
-  text-decoration: none;
-  font-family: 'Raleway';
-  color: var(--main-color);
-  font-size: 26px;
-  line-height: 32px;
+    text-decoration: none;
+    font-family: 'Raleway';
+    color: var(--main-color);
+    font-size: 26px;
+    line-height: 1.23;
 }
 
 .logo--black {
-  color: #000000;
+    color: #000000;
 }
 .logo--white {
-  color: #ffffff;
+    color: #ffffff;
 }
 .order-btn {
-  width: 200px;
-  height: 50px;
-  color: #fff;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.06em;
-  border: none;
-  outline: none;
-  background-color: var(--main-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
+    width: 200px;
+    height: 50px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    border: none;
+    outline: none;
+    background-color: var(--main-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+.page-button {
+    width: 121px;
+    height: 38px;
+    font-size: 16px;
+    line-height: 1.62;
+    color: #212121;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+}
+
+.page-button:hover,
+.page-button:focus {
+    color: var(--main-color);
+}
+
+ul {
+    list-style-type: none;
 }
 
 .worker {
-  color: #212121;
-  font-size: 16px;
-  line-height: 19px;
+    color: #212121;
+    font-size: 16px;
+    line-height: 1.18;
 }
 
 .position {
-  color: #757575;
-  font-size: 16px;
-  line-height: 19px;
+    color: #757575;
+    font-size: 16px;
+    line-height: 1.18;
+}
+.projects {
+    color: #212121;
+    font-size: 18px;
+    line-height: 2;
+}
+
+.project-name {
+    color: #757575;
+    font-size: 16px;
+    line-height: 1.87;
 }
 
 .contact {
-  text-decoration: none;
-  color: #757575;
-  font-size: 14px;
-  line-height: 16px;
+    text-decoration: none;
+    color: #757575;
+    font-size: 14px;
+    line-height: 1.14;
 }
 .address {
-  text-decoration: none;
-  font-family: 'roboto';
-  color: #ffffff;
-  font-size: 14px;
-  line-height: 24px;
+    text-decoration: none;
+    font-family: 'roboto';
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 1.71;
 }
