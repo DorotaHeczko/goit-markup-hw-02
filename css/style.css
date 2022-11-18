@@ -16,7 +16,6 @@ body {
 }
 
 .nav-list {
-    text-decoration: none;
     color: #212121;
     font-size: 14px;
     line-height: 1.14;
@@ -25,7 +24,7 @@ body {
 
 .nav-list a {
     color: var(--nav-item-color);
-    text-decoration: none;
+   list-style-type: none;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -101,6 +100,7 @@ body {
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.06em;
+    cursor: pointer;
     border: none;
     outline: none;
     background-color: var(--main-color);
@@ -111,9 +111,9 @@ body {
 .page-button {
     width: 121px;
     height: 38px;
+    color: #000000;
     font-size: 16px;
     line-height: 1.62;
-    color: #212121;
     line-height: 26px;
     letter-spacing: 0.03em;
     border: none;
@@ -126,10 +126,9 @@ body {
     color: var(--main-color);
 }
 
-ul {
-    list-style-type: none;
+.list-item {
+    list-style: none;
 }
-
 .worker {
     color: #212121;
     font-size: 16px;
@@ -154,11 +153,27 @@ ul {
 }
 
 .contact {
+    color: #757575;
+    font-size: 14px;
+    line-height: 1.14;
+    
+}
+
+.contact:hover,
+.contact:focus,
+.no-underline:hover,
+.no-underline:focus {
+color: var(--main-color)
+}
+
+
+.no-underline {
     text-decoration: none;
     color: #757575;
     font-size: 14px;
     line-height: 1.14;
 }
+
 .address {
     text-decoration: none;
     font-family: 'roboto';
