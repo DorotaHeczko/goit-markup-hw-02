@@ -175,9 +175,7 @@ body {
 
 .no-underline {
     text-decoration: none;
-    color: var(--contact-item-header-color);
-    font-size: 14px;
-    line-height: 1.14;
+color: var(--contact-item-header-color);
 }
 
 .address {
